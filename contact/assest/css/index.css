@@ -1,0 +1,49 @@
+.user{
+    padding: 80px 0;
+}
+.user__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10xp;
+    position: relative;
+}
+.user__content img{
+    padding: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.menu {
+    padding: 120px 0 0 0;
+}
+
+.menu__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.menu__content__card {
+    flex: 1;
+    gap: 1rem;
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px gray;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    background-color: rgb(8, 214, 8);
+}
+
+.menu__content__card__text {
+    font-size: 20px;
+    color: white;
+}
+
+.menu__content__card:hover {
+    box-shadow: 0px 0px 10px light-orange;
+    transform: scale(1.05);
+}
